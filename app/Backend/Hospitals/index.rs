@@ -1,4 +1,3 @@
-// app/backend/hospitals/index.rs
 
 use mongodb::{Client, Database};
 use next_router::{Router, Route};
