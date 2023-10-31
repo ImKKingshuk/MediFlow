@@ -46,13 +46,13 @@ function Navbar({}: NavbarProps) {
           {menuData.map((item) => (
             <li key={item.id} className="relative group flex">
               <Link href={item.path}>
-                <a className="text-white py-2 px-4">{item.title}</a>
+                <span className="text-white py-2 px-4">{item.title}</span>
               </Link>
               {item.subMenu && (
                 <div className="absolute hidden mt-2 space-y-2 py-2 px-3 bg-white group-hover:block">
                   {item.subMenu.map((subItem) => (
                     <Link key={subItem.id} href={subItem.path}>
-                      <a className="text-gray-700">{subItem.title}</a>
+                      <span className="text-gray-700">{subItem.title}</span>
                     </Link>
                   ))}
                 </div>
