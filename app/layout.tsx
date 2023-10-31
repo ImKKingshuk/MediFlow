@@ -13,6 +13,27 @@ export const metadata: Metadata = {
   authors: [{ name: "@ImKKingshuk" }, { name: "MediFlow Team" }],
 
   publisher: "MediFlow Team",
+  openGraph: {
+    title: "MediFlow",
+    description: "MediFlow: Revolutionizing Healthcare Scheduling in India",
+    url: "https://nextjs.org",
+    siteName: "MediFlow",
+    images: [
+      {
+        url: "https://nextjs.org/og.png",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://nextjs.org/og-alt.png",
+        width: 1800,
+        height: 1600,
+        alt: "My custom alt",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
