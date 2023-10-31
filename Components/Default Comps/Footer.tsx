@@ -11,14 +11,14 @@ import {
 interface FooterProps {}
 
 const socialMediaItems = [
-  { key: "facebook", icon: FaFacebook, href: "https://facebook.com/your-page" },
-  { key: "twitter", icon: FaTwitter, href: "https://twitter.com/your-page" },
+  { key: "facebook", icon: FaFacebook, href: "https://facebook.com/MediFlow" },
+  { key: "twitter", icon: FaTwitter, href: "https://twitter.com/MediFlow" },
   {
     key: "instagram",
     icon: FaInstagram,
-    href: "https://instagram.com/your-page",
+    href: "https://instagram.com/MediFlow",
   },
-  { key: "linkedin", icon: FaLinkedin, href: "https://linkedin.com/your-page" },
+  { key: "linkedin", icon: FaLinkedin, href: "https://linkedin.com/MediFlow" },
   // Add more social media items as needed
 ];
 
@@ -49,10 +49,7 @@ function Footer({}: FooterProps) {
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32 mx-[10%]">
           <div className="mx-auto max-w-sm lg:max-w-none">
             <p className="mt-4 text-justify text-gray-500 lg:text-left lg:text-lg ">
-              Unchiudaan शिक्षा से संबंधित अनुभवी युवाओं की समर्पित टीम है जो
-              Website और Telegram page के माध्यम से प्रतियोगी परीक्षाओं की
-              तैयारी कर रहे विद्यार्थियों को समसामयिक विषयों पर आधारित
-              महत्वपूर्ण Study Material उपलब्ध कराता है।
+              MediFlow: Revolutionizing Healthcare Scheduling in India.
             </p>
 
             <div className="mt-6 flex justify-center gap-6 lg:justify-start">
