@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-export const menuData = [
+const menuData = [
   {
     id: 1,
     title: "Home",
