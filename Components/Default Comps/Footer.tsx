@@ -39,10 +39,10 @@ function Footer({}: FooterProps) {
             सारे Updates पाने के लिए Subscribe करें
           </strong>
           <Link href="https://t.me/UnchiudaanTeam">
-            <a className="mt-6 flex w-fit hover:bg-blue-500 px-3 py-1 justify-between space-x-3 text-lg mx-auto rounded-full bg-blue-300 text-white">
+            <span className="mt-6 flex w-fit hover:bg-blue-500 px-3 py-1 justify-between space-x-3 text-lg mx-auto rounded-full bg-blue-300 text-white">
               <FaTelegramPlane className="w-7 h-7" />
               <span>Subscribe</span>
-            </a>
+            </span>
           </Link>
         </div>
 
@@ -74,9 +74,9 @@ function Footer({}: FooterProps) {
                 {menuItems.map((menuItem) => (
                   <li key={menuItem.key}>
                     <Link href={menuItem.href}>
-                      <a className="text-gray-700 transition hover:text-gray-700/75">
+                      <span className="text-gray-700 transition hover:text-gray-700/75">
                         {menuItem.label}
-                      </a>
+                      </span>
                     </Link>
                   </li>
                 ))}
