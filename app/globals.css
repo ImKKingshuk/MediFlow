@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .dark-mode {
+    @apply dark;
+  }
+
+  .light-mode {
+    @apply dark:text-white dark:bg-gray-800;
+  }
+}
