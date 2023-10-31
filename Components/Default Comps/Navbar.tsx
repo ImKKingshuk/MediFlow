@@ -10,8 +10,7 @@ function Navbar({}: NavbarProps) {
   return (
     <div className="mx-auto w-full fixed ">
       <h1>navbar</h1>
-      {/* <DarkModeToggle darkMode={darkMode} onDarkModeToggle={toggleDarkMode} />
-       */}
+      {/* <DarkModeToggle darkMode={darkMode} onDarkModeToggle={toggleDarkMode} /> */}
     </div>
   );
 }
