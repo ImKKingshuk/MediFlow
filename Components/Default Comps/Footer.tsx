@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import {
   FaFacebook,
@@ -38,12 +37,10 @@ function Footer({}: FooterProps) {
           <strong className="block text-center text-lg font-bold text-gray-900 sm:text-3xl ">
             सारे Updates पाने के लिए Subscribe करें
           </strong>
-          <Link href="https://t.me/UnchiudaanTeam">
-            <span className="mt-6 flex w-fit hover:bg-blue-500 px-3 py-1 justify-between space-x-3 text-lg mx-auto rounded-full bg-blue-300 text-white">
-              <FaTelegramPlane className="w-7 h-7" />
-              <span>Subscribe</span>
-            </span>
-          </Link>
+          <span className="mt-6 flex w-fit hover:bg-blue-500 px-3 py-1 justify-between space-x-3 text-lg mx-auto rounded-full bg-blue-300 text-white">
+            <FaTelegramPlane className="w-7 h-7" />
+            <span>Subscribe</span>
+          </span>
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32 mx-[10%]">
@@ -59,8 +56,9 @@ function Footer({}: FooterProps) {
                   href={item.href}
                   target="_blank"
                   rel="noreferrer"
+                  className="text-blue-500 "
                 >
-                  {<item.icon className="text-blue-500 w-7 h-7" />}
+                  {<item.icon className="w-7 h-7" />}
                 </a>
               ))}
             </div>
@@ -89,33 +87,33 @@ function Footer({}: FooterProps) {
               <ul className="mt-6 space-y-1">
                 <li>
                   <Link href="/AboutUs">
-                    <a className="text-gray-700 transition hover:text-gray-700/75">
+                    <span className="text-gray-700 transition hover:text-gray-700/75">
                       About
-                    </a>
+                    </span>
                   </Link>
                 </li>
 
                 <li>
                   <Link href="/terms_conditions">
-                    <a className="text-gray-700 transition hover:text-gray-700/75">
+                    <span className="text-gray-700 transition hover:text-gray-700/75">
                       Terms & Conditions
-                    </a>
+                    </span>
                   </Link>
                 </li>
 
                 <li>
                   <Link href="/disclaimer">
-                    <a className="text-gray-700 transition hover:text-gray-700/75">
+                    <span className="text-gray-700 transition hover:text-gray-700/75">
                       Disclaimer
-                    </a>
+                    </span>
                   </Link>
                 </li>
 
                 <li>
                   <Link href="/privacypolicy">
-                    <a className="text-gray-700 transition hover:text-gray-700/75">
+                    <span className="text-gray-700 transition hover:text-gray-700/75">
                       Privacy Policy
-                    </a>
+                    </span>
                   </Link>
                 </li>
               </ul>
@@ -127,9 +125,9 @@ function Footer({}: FooterProps) {
               <ul className="mt-6 space-y-1">
                 <li>
                   <Link href="/faqs">
-                    <a className="text-gray-700 transition hover:text-gray-700/75">
+                    <span className="text-gray-700 transition hover:text-gray-700/75">
                       FAQs
-                    </a>
+                    </span>
                   </Link>
                 </li>
               </ul>
@@ -145,7 +143,7 @@ function Footer({}: FooterProps) {
           <p>
             Designed & Developed by {""}
             <Link href="/DevTeam">
-              <a className="text-blue-500">Meow Coders</a>
+              <span className="text-blue-500">Meow Coders</span>
             </Link>
             .
           </p>
