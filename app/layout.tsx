@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "MediFlow",
   description: "MediFlow: Revolutionizing Healthcare Scheduling in India",
   referrer: "origin-when-cross-origin",
-  keywords: ["Next.js", "React", "JavaScript"],
+  keywords: ["Doctor", "Hospital Management", "Mediflow"],
   authors: [{ name: "@ImKKingshuk" }, { name: "MediFlow Team" }],
 
   publisher: "MediFlow Team",
