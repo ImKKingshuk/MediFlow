@@ -56,7 +56,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider>
           <Navbar />
-          {children}
+          <div className="py-[8rem] "> {children}</div>
+
           <Footer />
         </ThemeProvider>
       </body>
