@@ -14,6 +14,17 @@ export const metadata: Metadata = {
   authors: [{ name: "@ImKKingshuk" }, { name: "MediFlow Team" }],
 
   publisher: "MediFlow Team",
+  metadataBase: new URL("https://mediflow.vercel.app"),
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "de-DE": "/de-DE",
+    },
+  },
+  openGraph: {
+    images: "/og-image.png",
+  },
   openGraph: {
     title: "MediFlow",
     description: "MediFlow: Revolutionizing Healthcare Scheduling in India",
