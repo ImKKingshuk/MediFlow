@@ -32,17 +32,7 @@ const menuItems = [
 function Footer({}: FooterProps) {
   return (
     <div>
-      <div className="bg-pure-greys-5 mx-auto pt-[6rem] md:pt-[8rem]">
-        <div className="mx-auto  ">
-          <strong className="block text-center text-lg font-bold text-gray-900 sm:text-3xl ">
-            सारे Updates पाने के लिए Subscribe करें
-          </strong>
-          <span className="mt-6 flex w-fit hover:bg-blue-500 px-3 py-1 justify-between space-x-3 text-lg mx-auto rounded-full bg-blue-300 text-white">
-            <FaTelegramPlane className="w-7 h-7" />
-            <span>Subscribe</span>
-          </span>
-        </div>
-
+      <div className=" mx-auto">
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32 mx-[10%]">
           <div className="mx-auto max-w-sm lg:max-w-none">
             <p className="mt-4 text-justify text-gray-500 lg:text-left lg:text-lg ">
