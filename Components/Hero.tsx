@@ -4,7 +4,7 @@ interface HeroProps {}
 function Hero({}: HeroProps) {
   return (
     <div>
-      <h1>Hero</h1>
+      <h1 className="text-[4rem] text-black font-bold ">Hero</h1>
     </div>
   );
 }
