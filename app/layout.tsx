@@ -8,6 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "MediFlow",
   description: "MediFlow: Revolutionizing Healthcare Scheduling in India",
+  referrer: "origin-when-cross-origin",
+  keywords: ["Next.js", "React", "JavaScript"],
+  authors: [{ name: "@ImKKingshuk" }, { name: "MediFlow Team" }],
+
+  publisher: "MediFlow Team",
 };
 
 export default function RootLayout({
