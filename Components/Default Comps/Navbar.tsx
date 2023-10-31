@@ -40,7 +40,7 @@ interface NavbarProps {}
 
 function Navbar({}: NavbarProps) {
   return (
-    <div className="mx-auto bg-blue-500 w-full fixed ">
+    <div className="mx-auto py-3 w-full fixed text-black text-md">
       <div className="container mx-auto">
         <ul className="flex justify-between">
           {menuData.map((item) => (
