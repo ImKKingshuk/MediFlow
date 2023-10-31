@@ -1,3 +1,4 @@
+// app/backend/hospitals/index.rs
 
 use mongodb::{Client, Database};
 use next_router::{Router, Route};
@@ -11,6 +12,8 @@ struct Hospital {
     state: String,
     country: String,
     phone_number: String,
+    website: String,
+    image_url: String,
 }
 
 #[async_std::main]
@@ -38,6 +41,8 @@ async fn get_hospitals(req: Request, mut res: Response) -> Result<Response, Http
             state: document["state"].as_str().unwrap().to_string(),
             country: document["country"].as_str().unwrap().to_string(),
             phone_number: document["phone_number"].as_str().unwrap().to_string(),
+            website: document["website"].as_str().unwrap().to_string(),
+            image_url: document["image_url"].as_str().unwrap().to_string(),
         }
     }).collect();
 
