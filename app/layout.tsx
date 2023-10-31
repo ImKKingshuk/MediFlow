@@ -22,9 +22,7 @@ export const metadata: Metadata = {
       "de-DE": "/de-DE",
     },
   },
-  openGraph: {
-    images: "/og-image.png",
-  },
+
   openGraph: {
     title: "MediFlow",
     description: "MediFlow: Revolutionizing Healthcare Scheduling in India",
