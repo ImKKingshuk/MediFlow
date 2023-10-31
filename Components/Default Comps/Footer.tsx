@@ -1,3 +1,12 @@
+"use client";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaLinkedin,
+  FaInstagram,
+  FaTelegramPlane,
+} from "react-icons/fa";
+import Link from "next/link";
 interface FooterProps {}
 
 function Footer({}: FooterProps) {
