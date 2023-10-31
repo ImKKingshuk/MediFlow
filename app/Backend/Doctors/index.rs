@@ -1,3 +1,4 @@
+// app/backend/doctors/index.rs
 
 use mongodb::{Client, Database};
 use next_router::{Router, Route};
@@ -8,6 +9,7 @@ struct Doctor {
     name: String,
     specialty: String,
     hospital_id: String,
+    image_url: String,
 }
 
 #[async_std::main]
@@ -32,6 +34,7 @@ async fn get_doctors(req: Request, mut res: Response) -> Result<Response, HttpEr
             name: document["name"].as_str().unwrap().to_string(),
             specialty: document["specialty"].as_str().unwrap().to_string(),
             hospital_id: document["hospital_id"].as_str().unwrap().to_string(),
+            image_url: document["image_url"].as_str().unwrap().to_string(),
         }
     }).collect();
 
