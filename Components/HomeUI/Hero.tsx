@@ -6,7 +6,7 @@ interface HeroProps {}
 function Hero({}: HeroProps) {
   return (
     <div className="mx-auto mb-[8rem] w-full">
-      <div className="grid grid-cols-1 md:grid-cols-2 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto ">
         <div className=" flex-col justify-start items-start gap-8 inline-flex">
           <div className="flex-col justify-start items-start gap-6 flex">
             <div className="w-full">
@@ -39,20 +39,20 @@ function Hero({}: HeroProps) {
             </div>
           </div>
         </div>
-        <div className="w-[451px] h-[440px]  ">
+        <div className="w-full h-full  ">
           <Image
             src="/babydog.png"
             alt="Image 1"
             width={119}
             height={121}
-            className="left-0 top-[60px] absolute rounded-3xl"
+            className="right-0 top-[60px] absolute rounded-3xl"
           />
           <Image
             src="/babydog.png"
             alt="Image 2"
             width={119}
             height={121}
-            className="left-[332px] top-[223px] absolute rounded-3xl"
+            className="right-[332px] top-[223px] absolute rounded-3xl"
           />
           <Image
             src="/babydog.png"
