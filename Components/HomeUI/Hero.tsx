@@ -9,42 +9,42 @@ function Hero({}: HeroProps) {
       <div className="w-[1280px] h-[832px] relative bg-zinc-100">
         <div className="w-[451px] h-[440px] left-[756px] top-[127px] absolute">
           <Image
-            src="https://via.placeholder.com/119x121"
+            src="/babydog.png"
             alt="Image 1"
             width={119}
             height={121}
             className="left-0 top-[60px] absolute rounded-3xl"
           />
           <Image
-            src="https://via.placeholder.com/119x121"
+            src="/babydog.png"
             alt="Image 2"
             width={119}
             height={121}
             className="left-[332px] top-[223px] absolute rounded-3xl"
           />
           <Image
-            src="https://via.placeholder.com/119x121"
+            src="/babydog.png"
             alt="Image 3"
             width={119}
             height={121}
             className="left-0 top-[223px] absolute rounded-3xl"
           />
           <Image
-            src="https://via.placeholder.com/119x121"
+            src="/babydog.png"
             alt="Image 4"
             width={119}
             height={121}
             className="left-[332px] top-[60px] absolute rounded-3xl"
           />
           <Image
-            src="https://via.placeholder.com/119x121"
+            src="/babydog.png"
             alt="Image 5"
             width={119}
             height={121}
             className="left-[172px] top-0 absolute rounded-3xl"
           />
           <Image
-            src="https://via.placeholder.com/119x121"
+            src="/babydog.png"
             alt="Image 6"
             width={119}
             height={121}
@@ -85,50 +85,6 @@ function Hero({}: HeroProps) {
         </div>
         <div className="left-[31px] top-[32px] absolute text-[40px] font-semibold font-['Lexend'] capitalize">
           Meow Web
-        </div>
-        <div className="w-[451px] h-[440px] left-[415px] top-[196px] absolute">
-          <Image
-            src="https://via.placeholder.com/119x121"
-            alt="Image 7"
-            width={119}
-            height={121}
-            className="left-0 top-[60px] absolute rounded-3xl"
-          />
-          <Image
-            src="https://via.placeholder.com/119x121"
-            alt="Image 8"
-            width={119}
-            height={121}
-            className="left-[332px] top-[223px] absolute rounded-3xl"
-          />
-          <Image
-            src="https://via.placeholder.com/119x121"
-            alt="Image 9"
-            width={119}
-            height={121}
-            className="left-0 top-[223px] absolute rounded-3xl"
-          />
-          <Image
-            src="https://via.placeholder.com/119x121"
-            alt="Image 10"
-            width={119}
-            height={121}
-            className="left-[332px] top-[60px] absolute rounded-3xl"
-          />
-          <Image
-            src="https://via.placeholder.com/119x121"
-            alt="Image 11"
-            width={119}
-            height={121}
-            className="left-[172px] top-0 absolute rounded-3xl"
-          />
-          <Image
-            src="https://via.placeholder.com/119x121"
-            alt="Image 12"
-            width={119}
-            height={121}
-            className="left-[172px] top-[319px] absolute rounded-3xl"
-          />
         </div>
       </div>
     </div>
