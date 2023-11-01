@@ -7,7 +7,7 @@ function Hero({}: HeroProps) {
   return (
     <div className="mx-auto mb-[8rem]">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 ">
-        <div className="w-[451px] h-[440px] left-[756px] top-[127px] absolute">
+        <div className="w-[451px] h-[440px]  ">
           <Image
             src="/babydog.png"
             alt="Image 1"
@@ -51,9 +51,9 @@ function Hero({}: HeroProps) {
             className="left-[172px] top-[319px] absolute rounded-3xl"
           />
         </div>
-        <div className="left-[55px] top-[159px] absolute flex-col justify-start items-start gap-8 inline-flex">
+        <div className=" flex-col justify-start items-start gap-8 inline-flex">
           <div className="flex-col justify-start items-start gap-6 flex">
-            <div className="w-[496px]">
+            <div className="w-full">
               <span className="text-blue-950 text-[40px] font-semibold font-['Lexend'] capitalize">
                 The best place for <br />
                 your{" "}
