@@ -40,57 +40,28 @@ function Hero({}: HeroProps) {
           </div>
         </div>
 
-
-        <div className="w-[439px] h-[451px] relative">
-      <div className="w-[119px] h-[121px] left-0 top-[72px] absolute rounded-3xl">
-        <Image
-          src="/babydog.png"
-          alt="Image 1"
-          width={119}
-          height={121}
-        />
+        <div className="w-[439px] h-[451px] relative ">
+          <div className="w-[119px] h-[121px] left-0 top-[72px] absolute rounded-3xl">
+            <Image src="/babydog.png" alt="Image 1" width={119} height={121} />
+          </div>
+          <div className="w-[119px] h-[121px] left-[320px] top-[247px] absolute rounded-3xl">
+            <Image src="/babydog.png" alt="Image 2" width={119} height={121} />
+          </div>
+          <div className="w-[119px] h-[121px] left-0 top-[247px] absolute rounded-3xl">
+            <Image src="/babydog.png" alt="Image 3" width={119} height={121} />
+          </div>
+          <div className="w-[119px] h-[121px] left-[320px] top-[72px] absolute rounded-3xl">
+            <Image src="/babydog.png" alt="Image 4" width={119} height={121} />
+          </div>
+          <div className="w-[119px] h-[121px] left-[160px] top-0 absolute rounded-3xl">
+            <Image src="/babydog.png" alt="Image 5" width={119} height={121} />
+          </div>
+          <div className="w-[119px] h-[121px] left-[160px] top-[330px] absolute rounded-3xl">
+            <Image src="/babydog.png" alt="Image 6" width={119} height={121} />
+          </div>
+        </div>
       </div>
-      <div className="w-[119px] h-[121px] left-[320px] top-[247px] absolute rounded-3xl">
-        <Image
-          src="/babydog.png"
-          alt="Image 2"
-          width={119}
-          height={121}
-        />
-      </div>
-      <div className="w-[119px] h-[121px] left-0 top-[247px] absolute rounded-3xl">
-        <Image
-          src="/babydog.png"
-          alt="Image 3"
-          width={119}
-          height={121}
-        />
-      </div>
-      <div className="w-[119px] h-[121px] left-[320px] top-[72px] absolute rounded-3xl">
-        <Image
-          src="/babydog.png"
-          alt="Image 4"
-          width={119}
-          height={121}
-        />
-      </div>
-      <div className="w-[119px] h-[121px] left-[160px] top-0 absolute rounded-3xl">
-        <Image
-          src="/babydog.png"
-          alt="Image 5"
-          width={119}
-          height={121}
-        />
-      </div>
-      <div className="w-[119px] h-[121px] left-[160px] top-[330px] absolute rounded-3xl">
-        <Image
-          src="/babydog.png"
-          alt="Image 6"
-          width={119}
-          height={121}
-        />
-      </div>
-
+    </div>
   );
 }
 
