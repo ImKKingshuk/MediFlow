@@ -17,9 +17,9 @@ const socialMediaItems = [
 
 const menuItems = [
   { key: "home", label: "Home", href: "/" },
-  { key: "pdfs", label: "Pdfs", href: "/pdfs" },
-  { key: "news", label: "News/Blogs", href: "/News" },
-  { key: "current-affairs", label: "Current Affairs", href: "/Currentaffairs" },
+  { key: "pdfs", label: "doctor", href: "/doctor" },
+  { key: "news", label: "doctoe", href: "/Doctor" },
+  { key: "current-affairs", label: "doctor2", href: "/doctor2" },
   // Add more menu items as needed
 ];
 
