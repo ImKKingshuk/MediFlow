@@ -121,13 +121,13 @@ function Footer({}: FooterProps) {
 
         <div className="mt-16 border-t border-gray-100 pt-8 text-center">
           <p className=" text-lg text-black">
-            © <span className="font-[500]">ऊँची उड़ान</span> 2023. All rights
+            © <span className="font-[500]">MediFlow</span> 2023. All rights
             reserved.
           </p>
           <p>
             Designed & Developed by {""}
             <Link href="/DevTeam">
-              <span className="text-blue-500">Meow Coders</span>
+              <span className="text-blue-500">MediFlow Team</span>
             </Link>
             .
           </p>
