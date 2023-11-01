@@ -38,7 +38,7 @@ function Hero({}: HeroProps) {
           </div>
         </div>
 
-        <div className="w-[439px] h-[451px] relative ">
+        <div className="w-[439px] h-[451px] z-0 relative">
           <div className="w-[119px] h-[121px] left-0 top-[72px] absolute rounded-3xl">
             <Image src="/babydog.png" alt="Image 1" width={119} height={121} />
           </div>
