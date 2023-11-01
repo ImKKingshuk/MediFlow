@@ -40,13 +40,13 @@ interface NavbarProps {}
 
 function Navbar({}: NavbarProps) {
   return (
-    <div className="mx-auto py-3 w-full fixed text-black text-md">
+    <div className=" py-3 w-full fixed bg-blue-500 z-999 ">
       <div className="container mx-auto">
-        <ul className="flex justify-between">
+        <ul className="flex justify-between text-black text-md">
           {menuData.map((item) => (
             <li key={item.id} className="relative group flex">
               <Link href={item.path}>
-                <span className="text-white py-2 px-4">{item.title}</span>
+                <span className=" py-2 px-4">{item.title}</span>
               </Link>
               {item.subMenu && (
                 <div className="absolute hidden mt-2 space-y-2 py-2 px-3 bg-white group-hover:block">
