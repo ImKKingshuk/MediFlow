@@ -38,13 +38,20 @@ function Hero({}: HeroProps) {
               className="grow shrink focus:outline-none text-black text-base font-medium font-['Lexend'] leading-snug"
             />
 
-            <button className="px-4 py-3 bg-emerald-500 rounded-[32px] justify-start items-center gap-1 flex">
+            <button
+              onClick={handleSearchClick}
+              className="px-4 py-3 bg-emerald-500 rounded-[32px] justify-start items-center gap-1 flex"
+            >
               Search
             </button>
           </div>
         </div>
 
-        <div className="w-[439px] h-[451px] z-0 relative">
+        <div
+          className={`w-[439px] h-[451px] z-0 relative ${
+            isRotated ? "rotate-grid" : ""
+          }`}
+        >
           <div className="w-[119px] h-[121px] left-0 top-[72px] absolute rounded-3xl">
             <Image src="/babydog.png" alt="Image 1" width={119} height={121} />
           </div>
