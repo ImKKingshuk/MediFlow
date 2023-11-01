@@ -7,38 +7,6 @@ function Hero({}: HeroProps) {
   return (
     <div className="mx-auto mb-[8rem]">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 ">
-        <div className=" flex-col justify-start items-start gap-8 inline-flex">
-          <div className="flex-col justify-start items-start gap-6 flex">
-            <div className="w-full">
-              <span className="text-blue-950 text-[40px] font-semibold font-['Lexend'] capitalize">
-                The best place for <br />
-                your{" "}
-              </span>
-              <span className="text-[40px] font-semibold font-['Lexend'] capitalize">
-                your doctor
-                <br />
-              </span>
-              <span className="text-blue-950 text-[40px] font-semibold font-['Lexend'] capitalize">
-                Find now
-              </span>
-            </div>
-            <div className="w-[496px] opacity-75 text-slate-500 text-base font-normal font-['Lexend'] leading-7">
-              some more meow mwow meow
-            </div>
-          </div>
-          <div className="w-[496px] pl-6 pr-1 py-1 bg-white rounded-[32px] border border-zinc-200 justify-start items-center gap-4 inline-flex">
-            <div className="w-6 h-6 relative" />
-            <div className="grow shrink basis-0 text-neutral-400 text-base font-medium font-['Lexend'] leading-snug">
-              Serarch for doctor/ biryani/ mutton chap/ chicken/ meow /meow
-            </div>
-            <div className="px-4 py-3 bg-emerald-500 rounded-[32px] justify-start items-center gap-1 flex">
-              <div className="text-white text-sm font-semibold font-['Lexend'] leading-snug">
-                Search
-              </div>
-              <div className="w-6 h-6 relative" />
-            </div>
-          </div>
-        </div>
         <div className="w-[451px] h-[440px]  ">
           <Image
             src="/babydog.png"
@@ -82,6 +50,38 @@ function Hero({}: HeroProps) {
             height={121}
             className="left-[172px] top-[319px] absolute rounded-3xl"
           />
+        </div>
+        <div className=" flex-col justify-start items-start gap-8 inline-flex">
+          <div className="flex-col justify-start items-start gap-6 flex">
+            <div className="w-full">
+              <span className="text-blue-950 text-[40px] font-semibold font-['Lexend'] capitalize">
+                The best place for <br />
+                your{" "}
+              </span>
+              <span className="text-[40px] font-semibold font-['Lexend'] capitalize">
+                your doctor
+                <br />
+              </span>
+              <span className="text-blue-950 text-[40px] font-semibold font-['Lexend'] capitalize">
+                Find now
+              </span>
+            </div>
+            <div className="w-[496px] opacity-75 text-slate-500 text-base font-normal font-['Lexend'] leading-7">
+              some more meow mwow meow
+            </div>
+          </div>
+          <div className="w-[496px] pl-6 pr-1 py-1 bg-white rounded-[32px] border border-zinc-200 justify-start items-center gap-4 inline-flex">
+            <div className="w-6 h-6 relative" />
+            <div className="grow shrink basis-0 text-neutral-400 text-base font-medium font-['Lexend'] leading-snug">
+              Serarch for doctor/ biryani/ mutton chap/ chicken/ meow /meow
+            </div>
+            <div className="px-4 py-3 bg-emerald-500 rounded-[32px] justify-start items-center gap-1 flex">
+              <div className="text-white text-sm font-semibold font-['Lexend'] leading-snug">
+                Search
+              </div>
+              <div className="w-6 h-6 relative" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
