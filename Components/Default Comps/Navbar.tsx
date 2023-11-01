@@ -49,7 +49,7 @@ function Navbar({}: NavbarProps) {
                 <span className=" py-2 px-4">{item.title}</span>
               </Link>
               {item.subMenu && (
-                <ul className="absolute hidden top-12 w-fit space-y-2 rounded-lg py-2 px-3 bg-white shadow-3xl border-2 group-hover:block">
+                <ul className="absolute hidden top-12 w-[16rem] space-y-2 rounded-lg py-2 px-3 bg-white shadow-3xl border-2 group-hover:block">
                   {item.subMenu.map((subItem) => (
                     <li key={subItem.id}>
                       <Link href={subItem.path}>
