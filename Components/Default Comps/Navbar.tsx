@@ -11,8 +11,8 @@ const menuData = [
     title: "Services",
     path: "/services",
     subMenu: [
-      { id: 21, title: "Service 1", path: "/services/service1" },
-      { id: 22, title: "Service 2", path: "/services/service2" },
+      { id: 21, title: "Service", path: "/services/service1" },
+      { id: 22, title: "Service", path: "/services/service2" },
     ],
   },
   {
@@ -20,8 +20,8 @@ const menuData = [
     title: "Departments",
     path: "/departments",
     subMenu: [
-      { id: 31, title: "Department 1", path: "/departments/department1" },
-      { id: 32, title: "Department 2", path: "/departments/department2" },
+      { id: 31, title: "Department", path: "/departments/department1" },
+      { id: 32, title: "Department", path: "/departments/department2" },
     ],
   },
   {
@@ -49,7 +49,7 @@ function Navbar({}: NavbarProps) {
                 <span className=" py-2 px-4">{item.title}</span>
               </Link>
               {item.subMenu && (
-                <div className="absolute hidden top-12 w-20 space-y-2 rounded-lg py-2 px-3 bg-white shadow-3xl border-2 group-hover:block">
+                <div className="absolute hidden top-12 w-18 space-y-2 rounded-lg py-2 px-3 bg-white shadow-3xl border-2 group-hover:block">
                   {item.subMenu.map((subItem) => (
                     <Link
                       key={subItem.id}
