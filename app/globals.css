@@ -14,7 +14,7 @@
 /* styles.module.css */
 
 .rotate-grid {
-  animation: rotate 2s linear infinite;
+  animation: rotate 2s linear;
 }
 
 @keyframes rotate {
