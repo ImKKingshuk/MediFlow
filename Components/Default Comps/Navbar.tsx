@@ -40,8 +40,8 @@ interface NavbarProps {}
 
 function Navbar({}: NavbarProps) {
   return (
-    <div className=" py-3 w-full fixed bg-blue-500 z-999 ">
-      <div className="container mx-auto">
+    <div className=" py-3 w-full fixed 0 z-40 ">
+      <div className="backdrop-blur mx-auto ">
         <ul className="flex justify-between text-black text-md">
           {menuData.map((item) => (
             <li key={item.id} className="relative group flex">
