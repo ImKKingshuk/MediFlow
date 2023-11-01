@@ -26,8 +26,8 @@ const menuItems = [
 function Footer({}: FooterProps) {
   return (
     <div>
-      <div className=" mx-auto">
-        <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
+      <div className=" mx-6">
+        <div className=" grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
           <div className="mx-auto max-w-sm lg:max-w-none">
             <p className="mt-4 text-justify text-gray-500 lg:text-left lg:text-lg ">
               MediFlow: Revolutionizing Healthcare Scheduling in India.
