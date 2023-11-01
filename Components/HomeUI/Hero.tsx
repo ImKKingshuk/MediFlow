@@ -4,6 +4,12 @@ import Image from "next/image";
 interface HeroProps {}
 
 function Hero({}: HeroProps) {
+  const [isRotated, setIsRotated] = useState(false);
+
+  const handleSearchClick = () => {
+    setIsRotated(!isRotated);
+  };
+
   return (
     <div className="mx-auto mb-[8rem] w-full">
       <div className="grid grid-cols-1 md:grid-cols-2 mx-auto ">
