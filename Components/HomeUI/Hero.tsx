@@ -32,9 +32,9 @@ function Hero({}: HeroProps) {
               className="grow shrink focus:outline-none text-black text-base font-medium font-['Lexend'] leading-snug"
             />
 
-            <div className="px-4 py-3 bg-emerald-500 rounded-[32px] justify-start items-center gap-1 flex">
+            <button className="px-4 py-3 bg-emerald-500 rounded-[32px] justify-start items-center gap-1 flex">
               Search
-            </div>
+            </button>
           </div>
         </div>
 
