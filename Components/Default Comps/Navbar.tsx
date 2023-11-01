@@ -53,11 +53,10 @@ function Navbar({}: NavbarProps) {
                   {item.subMenu.map((subItem) => (
                     <li key={subItem.id}>
                       <Link href={subItem.path}>
-                        {" "}
                         <span className="text-gray-700 py-2">
-                          {subItem.title}{" "}
+                          {subItem.title}
                         </span>
-                      </Link>{" "}
+                      </Link>
                     </li>
                   ))}
                 </div>
