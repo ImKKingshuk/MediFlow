@@ -26,16 +26,14 @@ function Hero({}: HeroProps) {
               some more meow mwow meow
             </div>
           </div>
-          <div className="w-[496px] pl-6 pr-1 py-1 bg-white rounded-[32px] border border-zinc-200 justify-start items-center gap-4 inline-flex">
-            <div className="w-6 h-6 relative" />
-            <div className="grow shrink basis-0 text-neutral-400 text-base font-medium font-['Lexend'] leading-snug">
-              Serarch for doctor/ biryani/ mutton chap/ chicken/ meow /meow
-            </div>
+          <div className="w-[496px] px-4 py-1 bg-white rounded-full border border-zinc-200 justify-start items-center inline-flex">
+            <input
+              placeholder="Search for doctor/ biryani/ mutton chap/ chicken/ meow"
+              className="grow shrink focus:outline-none text-black text-base font-medium font-['Lexend'] leading-snug"
+            />
+
             <div className="px-4 py-3 bg-emerald-500 rounded-[32px] justify-start items-center gap-1 flex">
-              <div className="text-white text-sm font-semibold font-['Lexend'] leading-snug">
-                Search
-              </div>
-              <div className="w-6 h-6 relative" />
+              Search
             </div>
           </div>
         </div>
