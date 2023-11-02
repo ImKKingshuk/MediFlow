@@ -218,11 +218,11 @@ function DoctorDashboard({}: DoctorDashboardProps) {
                       </div>
                       <div className="w-[357.42px] h-[54px] left-0 top-[114.70px] absolute">
                         <div className="w-[263.20px] left-[94.22px] top-[-0px] absolute text-black text-opacity-50 text-xs font-normal font-['Poppins']">
-                          Paracetmol - 2 times a day
+                          Paracetamol - 2 times a day
                           <br />
                           Dizopam - Day and Night before meal
                           <br />
-                          Wikoryl
+                          Weekly
                         </div>
                         <div className="left-0 top-[1.11px] absolute text-black text-xs font-medium font-['Poppins']">
                           Prescription
