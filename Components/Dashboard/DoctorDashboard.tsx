@@ -200,8 +200,7 @@ function DoctorDashboard({}: DoctorDashboardProps) {
                             Dr Meow
                           </span>
                           <span className="text-black text-opacity-50 text-xs font-normal font-['Poppins']">
-                            {" "}
-                            on 21 April 2023 Prescription{" "}
+                            on 21 April 2023 Prescription
                           </span>
                           <span className="text-blue-600 text-xs font-normal font-['Poppins'] underline">
                             #2J983KT0
@@ -210,7 +209,7 @@ function DoctorDashboard({}: DoctorDashboardProps) {
                       </div>
                       <div className="w-[372.57px] h-9 left-0 top-[57.35px] absolute">
                         <div className="w-[276.30px] left-[96.27px] top-0 absolute text-black text-opacity-50 text-xs font-normal font-['Poppins']">
-                          High fever and cough at normal hemoglobin levels.{" "}
+                          High fever and cough at normal hemoglobin levels.
                         </div>
                         <div className="w-[75.94px] left-0 top-[1.11px] absolute text-black text-xs font-medium font-['Poppins']">
                           Observation
@@ -621,7 +620,7 @@ function DoctorDashboard({}: DoctorDashboardProps) {
               <div className="left-[4.39px] top-0 absolute">
                 <span className="text-stone-950 text-[26.33px] font-normal font-['Poppins']">
                   Good Morning
-                </span>{" "}
+                </span>
                 <br />
                 <span className="text-rose-500 text-[35.11px] font-bold font-['Poppins']"></span>
                 <span className="text-black text-[35.11px] font-bold font-['Poppins']">
