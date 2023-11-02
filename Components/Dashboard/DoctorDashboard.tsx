@@ -244,7 +244,7 @@ function DoctorDashboard({}: DoctorDashboardProps) {
                 </div>
                 <img
                   className="w-[380.98px] h-[217.12px] left-0 top-[97.29px] absolute rounded-[50px] border"
-                  src="https://via.placeholder.com/381x217"
+                  src="#"
                 />
                 <div className="w-[380.98px] left-0 top-[22.47px] absolute text-black text-lg font-semibold font-['Poppins']">
                   Equitable medical education with efforts toward real change
@@ -262,7 +262,7 @@ function DoctorDashboard({}: DoctorDashboardProps) {
                 </div>
                 <img
                   className="w-[380.98px] h-[217.12px] left-0 top-[97.29px] absolute rounded-[30px] border"
-                  src="https://via.placeholder.com/381x217"
+                  src="#"
                 />
                 <div className="w-[380.98px] left-0 top-[22.47px] absolute text-black text-lg font-semibold font-['Poppins']">
                   Equitable medical education with efforts toward real change
