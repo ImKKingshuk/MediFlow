@@ -239,7 +239,7 @@ function DoctorDashboard({}: DoctorDashboardProps) {
                 <div className="w-[88.51px] h-[18px] left-[1.02px] top-[-0px] absolute">
                   <div className="w-[8.19px] h-[8.19px] left-0 top-[5.12px] absolute bg-green-200 rounded-full" />
                   <div className="left-[21.51px] top-[-0px] absolute text-black text-opacity-40 text-xs font-normal font-['Poppins']">
-                    DAILY READ
+                    Daily Updates
                   </div>
                 </div>
                 <img
