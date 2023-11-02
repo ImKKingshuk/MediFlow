@@ -201,7 +201,7 @@ function DoctorDashboard({}: DoctorDashboardProps) {
                           </span>
                           <span className="text-black text-opacity-50 text-xs font-normal font-['Poppins']">
                             {" "}
-                            on 21 April 2021 Prescription{" "}
+                            on 21 April 2023 Prescription{" "}
                           </span>
                           <span className="text-blue-600 text-xs font-normal font-['Poppins'] underline">
                             #2J983KT0
@@ -274,7 +274,7 @@ function DoctorDashboard({}: DoctorDashboardProps) {
               <div className="w-[382.07px] h-[348.45px] left-[15.29px] top-[16.39px] absolute">
                 <div className="w-[35px] h-[35px] left-[289.87px] top-[145.26px] absolute bg-sky-500 rounded-full" />
                 <div className="left-0 top-[53.25px] absolute text-center text-black text-xs font-normal font-['Poppins'] capitalize tracking-tight">
-                  September 2022
+                  November 2023
                 </div>
                 <div className="w-[60.42px] h-[17.41px] left-[321.65px] top-[53.25px] absolute rounded-[50px] justify-between items-start inline-flex">
                   <div className="w-[17.50px] h-[17.50px] relative" />
@@ -520,7 +520,7 @@ function DoctorDashboard({}: DoctorDashboardProps) {
                         Montly doctor’s meet
                       </div>
                       <div className="w-[158.10px] left-[-0px] top-[28.68px] absolute text-stone-950 text-opacity-60 text-xs font-normal font-['Poppins']">
-                        8 April, 2021 | 04:00 PM
+                        8 April, 2023 | 04:00 PM
                       </div>
                     </div>
                     <div className="w-[47.11px] h-[47.11px] left-0 top-0 absolute bg-gradient-to-tr from-blue-400 via-blue-400 to-indigo-800 rounded-full" />
