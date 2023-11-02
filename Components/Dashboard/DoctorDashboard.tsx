@@ -552,7 +552,7 @@ function DoctorDashboard({}: DoctorDashboardProps) {
               <div className="w-[177px] h-[54px] left-[1076.95px] top-[5.94px] absolute">
                 <div className="w-[177px] h-[54px] left-0 top-0 absolute rounded-[50px] border border-zinc-300" />
                 <div className="w-[158.61px] h-[36.87px] left-[8.39px] top-[8.24px] absolute">
-                  <div className="left-[50.61px] top-[7.76px] absolute text-black text-base font-medium font-['Poppins']">
+                  <div className="left-[45.61px] top-[7.76px] absolute text-black text-base font-medium font-['Poppins']">
                     ImKKingshuk
                   </div>
                   <img
