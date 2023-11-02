@@ -520,7 +520,7 @@ function DoctorDashboard({}: DoctorDashboardProps) {
                         Montly doctor’s meet
                       </div>
                       <div className="w-[158.10px] left-[-0px] top-[28.68px] absolute text-stone-950 text-opacity-60 text-xs font-normal font-['Poppins']">
-                        8 April, 2023 | 04:00 PM
+                        18 November, 2023 | 12:00 PM
                       </div>
                     </div>
                     <div className="w-[47.11px] h-[47.11px] left-0 top-0 absolute bg-gradient-to-tr from-blue-400 via-blue-400 to-indigo-800 rounded-full" />
