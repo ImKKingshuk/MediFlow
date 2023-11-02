@@ -621,9 +621,10 @@ function DoctorDashboard({}: DoctorDashboardProps) {
               <div className="left-[4.39px] top-0 absolute">
                 <span className="text-stone-950 text-[26.33px] font-normal font-['Poppins']">
                   Good Morning
-                </span>
+                </span>{" "}
+                <br />
                 <span className="text-rose-500 text-[35.11px] font-bold font-['Poppins']"></span>
-                <span className="text-cyan-700 text-[35.11px] font-bold font-['Poppins']">
+                <span className="text-black text-[35.11px] font-bold font-['Poppins']">
                   Dr. ImKKingshuk
                 </span>
               </div>
