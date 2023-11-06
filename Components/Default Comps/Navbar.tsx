@@ -14,6 +14,7 @@ const menuData = [
       { id: 21, title: "Service", path: "/services/service1" },
       { id: 22, title: "Service", path: "/services/service2" },
       { id: 22, title: "Service", path: "/services/service2" },
+      { id: 22, title: "Service", path: "/services/service2" },
     ],
   },
   {
