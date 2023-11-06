@@ -25,6 +25,7 @@ const menuData = [
     subMenu: [
       { id: 31, title: "Department", path: "/departments/department1" },
       { id: 32, title: "Department", path: "/departments/department2" },
+      { id: 32, title: "Department", path: "/departments/department2" },
     ],
   },
   {
