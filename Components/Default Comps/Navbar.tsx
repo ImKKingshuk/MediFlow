@@ -27,6 +27,7 @@ const menuData = [
       { id: 32, title: "Department", path: "/departments/department2" },
       { id: 32, title: "Department", path: "/departments/department2" },
       { id: 32, title: "Department", path: "/departments/department2" },
+      { id: 32, title: "Department", path: "/departments/department2" },
     ],
   },
   {
